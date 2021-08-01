@@ -25,7 +25,7 @@ namespace GameConsole
             
             while (true)
             {
-                Thread.Sleep(2000); // ensure console color set back to white
+                Thread.Sleep(2000);
                 ForegroundColor = ConsoleColor.White;
 
                 var action = ReadLine();
